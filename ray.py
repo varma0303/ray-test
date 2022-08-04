@@ -51,5 +51,5 @@ def main():
 
 
 if __name__ == "__main__":
-    ray.init("ray://ray-cluster-ray-head:10001")
+    ray.init("ray://ray-head:8000",namespace="ray")
     main()
